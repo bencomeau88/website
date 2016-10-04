@@ -1,0 +1,378 @@
+<!DOCTYPE HTML>
+<!--
+	Miniport by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+    <title>JP Steven Counseling</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel='shortcut icon' href='images/chair.svg' type='image/x-icon'/ >
+    <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen">
+    <link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen">
+    <link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen">
+    <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+    <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+</head>
+
+<body>
+    <!-- Nav -->
+    <nav id="nav">
+        <ul class="container">
+            <li><a href="#top">Top</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#portfolio">Qualifications</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#map">Map</a></li>
+            <li><a href="#billing">Billing</a></li>
+        </ul>
+    </nav>
+    <!-- Home -->
+    <div class="wrapper style1 first">
+        <article class="container" id="top">
+            <div class="row">
+                <div class="4u 12u(mobile)">
+                	<!-- <span class="image fit"><img src="images/chair.svg" alt="waffs" width="300px" height="350px" /></span> -->
+                    <span class="image fit"><img src="images/waffles.jpg" alt="waffs" width="300px" height="350px" /></span>
+                </div>
+                <div class="8u 12u(mobile)">
+                    <header>
+                        <h1 class='font-blue'>Hi. I'm <strong class='font-blue'>Jane Stevens</strong>.</h1>
+                    </header>
+                    <p class='font-blue'><strong>JP Stevens Counseling</strong> specializes in <em>LOREM IPSUM</em> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati non, officiis quos veritatis minima amet, voluptatem architecto pariatur harum placeat nesciunt quo culpa, accusantium odio suscipit dolor repudiandae, dicta eos.</p>
+                    <a href="#work" class="button big scrolly">Learn about what I do</a>
+                </div>
+            </div>
+        </article>
+    </div>
+    <!-- Work -->
+    <div class="wrapper style2">
+        <article id="work">
+            <header>
+                <h2 class='font-blue'>Here's all the stuff I do.</h2>
+                <p>Odio turpis amet sed consequat eget posuere consequat.</p>
+            </header>
+            <div class="container">
+                <div class="row">
+                    <div class="4u 12u(mobile)">
+                        <section class="box style1">
+                            <span class="icon featured"><img src="images/communication.svg" width="100px" height="100px"></span>
+                            <h3 class='font-blue'>Consequat lorem</h3>
+                            <p>Ornare nulla proin odio consequat sapien vestibulum ipsum primis sed amet consequat lorem dolore.</p>
+                        </section>
+                    </div>
+                    <div class="4u 12u(mobile)">
+                        <section class="box style1">
+                            <span class="icon featured"><img src="images/communication.svg" width="100px" height="100px"></span>
+                            <h3 class='font-blue'>Lorem dolor tempus</h3>
+                            <p>Ornare nulla proin odio consequat sapien vestibulum ipsum primis sed amet consequat lorem dolore.</p>
+                        </section>
+                    </div>
+                    <div class="4u 12u(mobile)">
+                        <section class="box style1">
+                            <span class="icon featured"><img src="images/communication.svg" width="100px" height="100px"></span>
+                            <h3 class='font-blue'>Feugiat posuere</h3>
+                            <p>Ornare nulla proin odio consequat sapien vestibulum ipsum primis sed amet consequat lorem dolore.</p>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <p class="">Lorem ipsum dolor sit sapien vestibulum ipsum primis?</p>
+                <a href="#contact" class="button big scrolly contactTop">Get in touch with me</a>
+                <!-- <a href="#portfolio" class="button big scrolly">See some of my recent work</a> -->
+            </footer>
+        </article>
+    </div>
+    <!-- Map -->
+    <div class="wrapper style3">
+        <div class='map'>
+            <article id='map'>
+                <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
+                <div style='overflow:hidden;height:440px;width:700px;'>
+                    <div id='gmap_canvas' style='height:440px;width:700px;'></div>
+                    <div><small><a href="http://embedgooglemaps.com">Embed your Google Map here!</a></small></div>
+                    <div><small><a href="https://binaireoptieservaringen.nl/">Bezoek onze website!</a></small></div>
+                    <style>
+                    #gmap_canvas img {
+                        max-width: none!important;
+                        background: none!important
+                    }
+                    </style>
+                </div>
+                <script type='text/javascript'>
+                function init_map() {
+                    var myOptions = {
+                        zoom: 15,
+                        center: new google.maps.LatLng(38.9855341, -77.09039949999999),
+                        mapTypeId: google.maps.MapTypeId.ROADMAP
+                    };
+                    map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);
+                    marker = new google.maps.Marker({
+                        map: map,
+                        position: new google.maps.LatLng(38.9855341, -77.09039949999999)
+                    });
+                    infowindow = new google.maps.InfoWindow({
+                        content: '<strong>JPStevens Counseling </strong><br>4405 east west hwy suite 512 Bethesda md 20814<br>'
+                    });
+                    google.maps.event.addListener(marker, 'click', function() {
+                        infowindow.open(map, marker);
+                    });
+                    infowindow.open(map, marker);
+                }
+                google.maps.event.addDomListener(window, 'load', init_map);
+                </script>
+        </div>
+        <div class='directions'>
+            <h1 class='directionTitles font-blue'> <em>Description</em></h1>
+            <p>BRIEF DESCRIPTION OF WHERE YOUR OFFICE IS LOCATED</p>
+            <h1 class='directionTitles font-blue'><em>Metro Directions</em></h1>
+            <p>METRO ACCESSIBLE??</p>
+            <h1 class='directionTitles font-blue'><em>Driving</em></h1>
+            <p>DRIVING INFO, WHERE DO YOU PARK WHEN YOU DRIVE??</p>
+        </div>
+        </article>
+    </div>
+    <!-- Qualifications -->
+    <div class="portfolio-wrapper">
+        <article id='portfolio'>
+            <header>
+                <h2 class='qualifications'>Qualifications</h1>
+					</header>
+				<div class='qualifications-box '>
+					<section class="box style2">
+						<h3 class='education-header qualifications-header'>Education</h2>
+                <ul class='education list'>
+                    <li>
+                        B.A. in Psychology, Emory University, Atlanta, GA
+                    </li>
+                    <li>
+                        M.S. in Pastoral Counseling, Loyola University, Baltimore, MD
+                    </li>
+                    <li>
+                        M.A. in Forensic Psychology, George Washington Unversity, Washington, DC
+                    </li>
+                </ul>
+                </section>
+                <section class="box style2">
+                    <h3 class='professional-affliations-header qualifications-header'>Professional Affiliations</h3>
+						<ul class='professional-affliations list'>
+						<li>American Counseling Association (ACA), member</li>
+						<li>American Counseling Association (ACA) Collaborative Dispute Reolution Professionals (CORP), board member</li>
+						<li>Prince George's County Collaborative Professionals (PGCCP), board member</li>
+						<li>DC Academy of Collaborative Professionals (DCACP), member</li>
+						<li>International Association of Collaborative Professionals (IACP), member</li>
+						</ul> 
+						</section>
+						<section class="box style2">
+						<h3 class='trainings-header  qualifications-header'>Professional Trainings</h2>
+						<ul class='trainings list'>
+							<li>Mediation Training</li>
+							<li>Collaborative Divorce Team Trainings</li>
+						</ul>
+						</section>
+						<section class="box style2">
+						<h3 class='credentials-header qualifications-header'>Credentials</h2>
+						<ul class='credentials list'>
+							<li><em>Maryland:</em>Licensed Clinical Professional Counselor</li>
+						</ul>
+						</section>
+					
+				</article>
+			</div>
+			</div>
+		<div class="billing-wrapper">
+			<article id='billing'>
+				<header>
+					<h2 class='billing-header font-blue'>Billing</h2>
+					<p class='billing font-blue'>Feel free to <a href="#contact">contact me</a> with any specific questions you may have reguarding billing</p>
+				</header>
+				<div class="container">
+						<div class="row">
+							<div class="4u 12u(mobile)">
+								<article class="box style2">
+									<h3><a href="#" class='billing1 font-blue'>Magna feugiat</a></h3>
+                    <p>Ornare nulla proin odio consequat.</p>
+        </article>
+    </div>
+    <div class="4u 12u(mobile)">
+        <article class="box style2">
+            <h3><a href="#" class='billing2 font-blue'>Veroeros primis</a></h3>
+            <p>Ornare nulla proin odio consequat.</p>
+        </article>
+    </div>
+    <div class="4u 12u(mobile)">
+        <article class="box style2">
+            <h3><a href="#" class='billing3 font-blue'>Lorem ipsum</a></h3>
+            <p>Ornare nulla proin odio consequat.</p>
+        </article>
+    </div>
+    <div class="payment">
+        <article class="box style1">
+            <h3><a href="#" class='billing2 font-blue'>Payment</a></h3>
+            <p>Ornare nulla proin odio consequat.</p>
+        </article>
+    </div>
+    </div>
+    </div>
+    </article>
+    </div>
+    <!-- <article id="portfolio">
+					<header>
+						<h2>Here’s some stuff I made recently.</h2>
+						<p>Proin odio consequat  sapien vestibulum consequat lorem dolore feugiat lorem ipsum dolore.</p>
+					</header>
+					<div class="container">
+						<div class="row">
+							<div class="4u 12u(mobile)">
+								<article class="box style2">
+									<a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
+									<h3><a href="#">Magna feugiat</a></h3>
+									<p>Ornare nulla proin odio consequat.</p>
+								</article>
+							</div>
+							<div class="4u 12u(mobile)">
+								<article class="box style2">
+									<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
+									<h3><a href="#">Veroeros primis</a></h3>
+									<p>Ornare nulla proin odio consequat.</p>
+								</article>
+							</div>
+							<div class="4u 12u(mobile)">
+								<article class="box style2">
+									<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
+									<h3><a href="#">Lorem ipsum</a></h3>
+									<p>Ornare nulla proin odio consequat.</p>
+								</article>
+							</div>
+						</div>
+						<div class="row">
+							<div class="4u 12u(mobile)">
+								<article class="box style2">
+									<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
+									<h3><a href="#">Tempus dolore</a></h3>
+									<p>Ornare nulla proin odio consequat.</p>
+								</article>
+							</div>
+							<div class="4u 12u(mobile)">
+								<article class="box style2">
+									<a href="#" class="image featured"><img src="images/pic05.jpg" alt="" /></a>
+									<h3><a href="#">Feugiat aliquam</a></h3>
+									<p>Ornare nulla proin odio consequat.</p>
+								</article>
+							</div>
+							<div class="4u 12u(mobile)">
+								<article class="box style2">
+									<a href="#" class="image featured"><img src="images/pic06.jpg" alt="" /></a>
+									<h3><a href="#">Sed amet ornare</a></h3>
+									<p>Ornare nulla proin odio consequat.</p>
+								</article>
+							</div>
+						</div>
+					</div>
+					<footer> -->
+    <!-- <p>Lorem ipsum dolor sit sapien vestibulum ipsum primis?</p>
+						<a href="#contact" class="button big scrolly contactBttn">Get in touch with me</a> -->
+    </div>
+    <!-- Contact -->
+    <div class="wrapper style4">
+        <article id="contact" class="container 75%">
+            <header>
+                <h2>Have me make stuff for you.</h2>
+                <p>Ornare nulla proin odio consequat sapien vestibulum ipsum sed lorem.</p>
+            </header>
+            <div>
+                <div class="row">
+                    <div class="12u">
+                        <form method="post" action="#">
+                            <div>
+                                <div class="row">
+                                    <div class="6u 12u(mobile)">
+                                        <input type="text" name="name" id="name" placeholder="Name" />
+                                    </div>
+                                    <div class="6u 12u(mobile)">
+                                        <input type="text" name="email" id="email" placeholder="Email" />
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="12u">
+                                        <input type="text" name="subject" id="subject" placeholder="Subject" />
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="12u">
+                                        <textarea name="message" id="message" placeholder="Message"></textarea>
+                                    </div>
+                                </div>
+                                <div class="row 200%">
+                                    <div class="12u">
+                                        <ul class="actions">
+                                            <li>
+                                                <input type="submit" value="Send Message" />
+                                            </li>
+                                            <li>
+                                                <input type="reset" value="Clear Form" class="alt" />
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!-- <div class="row">
+							<div class="12u">
+								<hr />
+								<h3>Find me on ...</h3>
+								<ul class="social">
+									<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+									<li><a href="#" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+									<li><a href="#" class="icon fa-tumblr"><span class="label">Tumblr</span></a></li>
+									<li><a href="#" class="icon fa-google-plus"><span class="label">Google+</span></a></li>
+									<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
+									<!
+									<li><a href="#" class="icon fa-rss"><span>RSS</span></a></li>
+									<li><a href="#" class="icon fa-instagram"><span>Instagram</span></a></li>
+									<li><a href="#" class="icon fa-foursquare"><span>Foursquare</span></a></li>
+									<li><a href="#" class="icon fa-skype"><span>Skype</span></a></li>
+									<li><a href="#" class="icon fa-soundcloud"><span>Soundcloud</span></a></li>
+									<li><a href="#" class="icon fa-youtube"><span>YouTube</span></a></li>
+									<li><a href="#" class="icon fa-blogger"><span>Blogger</span></a></li>
+									<li><a href="#" class="icon fa-flickr"><span>Flickr</span></a></li>
+									<li><a href="#" class="icon fa-vimeo"><span>Vimeo</span></a></li>
+									-->
+                <!-- </ul>
+								<hr />
+							</div>
+						</div> -->
+            </div>
+            <footer>
+                <ul id="copyright">
+                    <li>&copy; Untitled. All rights reserved.</li>
+                    <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                </ul>
+            </footer>
+        </article>
+    </div>
+    <!-- Scripts -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/skel.min.js"></script>
+    <script src="assets/js/skel-viewport.min.js"></script>
+    <script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+    <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+    <script src="assets/js/util.js"></script>
+    <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+    <script src="assets/js/main.js"></script>
+    <script src='assets/js/app.js'></script>
+</body>
+
+</html>
