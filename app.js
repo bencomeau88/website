@@ -11,4 +11,8 @@ $(document).ready(function(){
 			'content': discount-options
 		});
 	})
+
+	$('.rockville-office').on('click',function(e){
+		e.preventDefault();
+	})
 })
