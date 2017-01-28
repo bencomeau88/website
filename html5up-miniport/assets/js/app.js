@@ -1,7 +1,7 @@
 var discounts = "<p> I participate in Maryland Medicade (??? what does that say?). </p>";
-var insurance = "<p> I am a provider for BlueCross Blueshield Carefirst and most insurance plans will reimburse for the mental health treatment I provide as long as the plan allows you to get services out of network. <em>check with your insurance company regarding your specific coverage</em> </p>";
-var collaborative = "<p> please note that Collaborative Divorce Coaching and Mediation are not reimburseable, if you are interested in this service please contact me for billing specifics </p>";
-var payment = "<p> Payment is expected at time of service and I accept <em>cash</em> and <em>checks and I do not generally bill clients</em> </p>";
+var insurance = "<p><b>Carefirst BlueCross BlueShield</b><br><b>Maryland Medicaid</b> (Value Options/Beacon Health)<br><i>(For specific coverage eligibility, please contact your provider.)</i></p>";
+var collaborative = "<p> please note that <b>Collaborative Divorce Coaching</b> and <b>Mediation</b> are not reimburseable. <br>if you are interested in this service please contact me for billing specifics. </p>";
+var payment = "<p> Payment is expected at time of service.<br>Forms for submission to insurance company for out of network claims will be provided upon request.<br><b>Collaborative Coaching</b> is not an insurance reimbursable expense. <br> I accept <b> cash </b> and <b> checks</b></p>";
 
 $(document).ready(function(){
 

@@ -1,7 +1,7 @@
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,600,600italic,700");
 @import url("font-awesome.min.css");
 @import url('https://fonts.googleapis.com/css?family=Montez:400,600');
-
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond|Courgette|Kalam|Marck+Script|Montez|Muli|Nothing+You+Could+Do|Oxygen|PT+Sans|PT+Serif|Playfair+Display|Shadows+Into+Light|Yanone+Kaffeesatz');
 /*
 	Miniport by HTML5 UP
 	html5up.net | @ajlkn
@@ -9,6 +9,38 @@
 */
 
 /* Reset */
+
+/*TO DO LIST!!!*/
+/*HIDE "stuff I do". Display only 1 sentence description with picture (find shadow box that works on mobile devices)*/
+/*HIDE BOTH MAPS AND JUST HAVE THE SAME CONTENT THAT EXSISTS ON THE RIGHT SIDE NOW*/
+/*ADD BORDER JUST LIKE HER SITE, OR ELEMINATE WHITE SPACE AND REDUCE WIDTH*/
+/*CENTER EMPATHY QUOTE FIND EMBELISHMENTs and get approval*/
+/*CHANGE ALL MAIN BODY FONTS TO BELOW*/
+/*ALL THIS STUFF ADD TO MAIN BODY*/
+/*Try to change color of individual counseling to dark grey*/
+/*Edit qualifications page ADD Flex box*/
+/*Get rid of lorem ipsum PAYMENT square*/
+/*check out BOOTSTRAP's modal*/
+/*Prevent picture from stretching*/
+.font-size {
+	font-size:23px;
+}
+/*Main body font*/
+.font-test {
+	font-family:Muli;
+}
+/*quote font BUT MAKE BIGGER*/
+.quote-font {
+	font-family:Yanone Kaffeesatz;
+}
+
+/*NEW .font-blue class to be ALSO CHANGE ALL THE BLUE FOR THE BUTTONS*/
+.font-blue2 {
+	color: #000080;
+	background-color:#000080;
+}
+
+/*END OF TO DO LIST*/
 
 .qualifications-box section{
 	text-align:left;
@@ -48,9 +80,11 @@
 
 }*/
 
-.payment {
+/*.payment {
 	margin-left:35%;
-}
+}*/
+
+/*background image*/
 
 .billing-wrapper {
 	background-color:#f4f4f4;
@@ -1746,9 +1780,6 @@
 				.wrapper.style4 form textarea:focus {
 					background: #252525;
 				}
-	.empathy {
-		fonspt-family: 'Montez';
-	}
 
 /* Nav */
 	nav::after{
